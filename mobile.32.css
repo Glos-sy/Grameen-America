@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-nav {
+/* nav {
     flex-direction: column;
     text-align: center;
 }
@@ -20,10 +20,10 @@ nav ul {
 
 .nav-input input {
     margin: 0.9rem;
-}
+} */
 
 .nav img {
-    width: 30%;
+    width: 20%;
 }
 
 nav li {
@@ -37,7 +37,21 @@ nav li {
 #one img {
     width: 98%;
     width: 45rem;
-    height: 27rem;
+    height: 26rem;
+}
+
+img.a, img.s, img.p, img.r, img.t {
+    width: 80%;
+    position: relative;
+    left: 0.4;
+}
+
+#three .img.q {
+    display: none;
+}
+
+.w-2 {
+    display: none;
 }
 
 #two .larger-h1-two {
@@ -62,6 +76,18 @@ nav li {
 
 .four-flex-container {
     flex-direction: column;
+}
+
+section#five {
+    display: flex;
+    flex-direction: column;
+}
+
+section#five div {
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 3rem;
 }
 
 .five {

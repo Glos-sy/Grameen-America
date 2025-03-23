@@ -52,6 +52,10 @@ i.fa-solid.fa-xmark {
     display: none;
 }
 
+i#bars.fa-solid.fa-bars {
+    display: none;
+}
+
 nav input {
     margin: 0 1rem;
     border: 3px solid #227f80;
