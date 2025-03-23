@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    /* background-color: yellow; */
+}
+
+#ul-i.show {
+    display: flex;
+    width: 120%;
+    position: relative;
+    right: -1rem;
+}
+
+i#bars.fa-solid.fa-bars {
+    margin-right: 0.5rem;
+}

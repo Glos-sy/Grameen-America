@@ -22,8 +22,31 @@ nav ul {
     margin: 0.9rem;
 } */
 
-.nav img {
-    width: 20%;
+img.nav-logo {
+    width: 36%;
+    margin-left: -1rem;
+}
+
+.fa-bars {
+    width: 10%;
+    display: flex;
+    color: #0d807d;
+    font-size: 3rem;
+    position: relative;
+    left: 1rem;
+    top: 0.3rem;
+}
+
+#ul-i.show {
+    display: flex;
+    width: 120%;
+    position: relative;
+    right: -3rem;
+}
+
+.no-display-i {
+    font-size: 1.5rem;
+    width: 90%;
 }
 
 nav li {
