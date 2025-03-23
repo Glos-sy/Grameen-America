@@ -39,6 +39,19 @@ nav li {
     list-style-type: none;
 }
 
+.fa-solid {
+   display: none;
+}
+
+
+i.fa-solid.fa-xmark {
+    display: none;
+}
+
+.no-display-i {
+    display: none;
+}
+
 nav input {
     margin: 0 1rem;
     border: 3px solid #227f80;

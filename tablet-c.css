@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+.inquire {
+    display: none;
+}
+
+nav img {
+    margin: 0 1rem 0 0.3rem;
+    width: 33%;
+    height: 50%;
+}
+
+.no-display {
+    display: none;
+}
+
+.nav-input {
+    width: 33%;
+}

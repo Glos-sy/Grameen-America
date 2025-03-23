@@ -10,9 +10,20 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="styles-32.css" />
+    <link rel="stylesheet" href="tablet-a.css" media="(max-width: 1000px)">
     <link rel="stylesheet" href="tablet-32.css" media="(max-width: 1024px)" />
+    <link rel="stylesheet" href="tablet-b.css" media="(max-width: 900px)">
     <link rel="stylesheet" href="mobile-32.css" media="(max-width: 500px)" />
-
+    <link rel="stylesheet" href="tablet-c.css" media="(max-width: 800px)">
+    <link rel="stylesheet" href="tablet-d.css" media="(max-width: 650px)">
+    <!-- 650 -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   </head>
   <body>
     <header>
@@ -22,20 +33,22 @@
           alt="green-america-logo"
           class="nav-logo"
         />
-        <ul>
+        <ul id="ul-i">
           <li><a href="">About Us</a></li>
           <li><a href="">Our Impact</a></li>
-          <li><a href="">Recent News</a></li>
-          <li><a href="">Blog</a></li>
+          <li class="no-display"><a href="">Recent News</a></li>
+          <li class="no-display"><a href="">Blog</a></li>
           <li><a href="">Our Partners</a></li>
-          <li><a href="">Careers</a></li>
+          <li  class="no-display"><a href="">Careers</a></li>
+          <input type="button" value="Subscribe" class="no-display-i" />
         </ul>
         <div class="nav-input">
-          <input type="button" value="Inquire" />
-          <input type="button" value="Donate" />
-          <input type="button" value="Subscribe" />
+          <input type="button" value="Inquire" class="inquire" />
+          <input type="button" value="Donate" class="donate" />
+          <input type="button" value="Subscribe" class="subscribe" />
         </div>
-        <!--  -->
+        <i id="bars" class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
       </nav>
     </header>
 
@@ -185,5 +198,7 @@
 
       <p>Grameen America is a registered 501(c)(3) charity.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

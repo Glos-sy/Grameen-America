@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* background-color: yellow; */
+}
+
+nav img {
+    margin: 0 1rem;
+    width: 15%;
+    height: 50%;
+}
+
+a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #4d5c67;
+    font-size: 1.9rem;
+}
+
+nav input {
+    margin: 0 1rem;
+    border: 2px solid #227f80;
+    background-color: transparent;
+    padding: 1.1rem 2.2rem;
+    color: #227f80;
+    font-size: 1.7rem;
+    border-radius: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    width: 90%;
+}
+
+.nav-input {
+    width: 22%;
+}
+
+.donate {
+    display: none;
+}
+
+nav li {
+    margin: 0 0.5rem;
+    list-style-type: none;
+}
