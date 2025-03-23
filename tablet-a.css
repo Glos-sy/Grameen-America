@@ -46,3 +46,7 @@ nav li {
     margin: 0 0.5rem;
     list-style-type: none;
 }
+
+#two .larger-h1-two {
+    font-size: 10rem;
+}

@@ -65,3 +65,7 @@ nav li {
     position: relative;
     right: 1rem;
 }
+
+#two .larger-h1-two {
+    font-size: 7rem;
+}
